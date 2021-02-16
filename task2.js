@@ -9,5 +9,3 @@ function reformat(str) {
     const vowelLessStr = lowerCasedStr.replace(/[aeiou]/ig, "");
     return capitalizeFirstLetter(vowelLessStr);
 }
-
-console.log(reformat("liMeSHArp DeveLoper TEST"));
